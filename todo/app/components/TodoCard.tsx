@@ -13,7 +13,7 @@ const TodoCard: React.FC<{ todo: ITodo }> = ({ todo }) => {
 </div>
 
       <h3 className="text-xl font-medium text-gray-900">Content</h3>
-      <p className="text-gray-600">{todo.content}</p>
+      <p className="text-gray-600 whitespace-pre-wrap">{todo.content}</p>
       </div>
     </div>
   )
